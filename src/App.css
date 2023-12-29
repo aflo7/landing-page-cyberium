@@ -1,0 +1,95 @@
+nav {
+  background-color: rgb(13, 14, 59);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+#rxHamburgerMenu {
+  color: white;
+  font-size: 1.5rem;
+  background-color: rgb(99, 84, 224);
+  border-radius: 5px;
+  padding: 3px 8px;
+}
+
+main {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://www.cyberium.info/wp-content/uploads/2023/12/scene00292-e1700455589485.webp);
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  color: rgb(111, 225, 176);
+  text-align: center;
+  font-size: 3rem;
+}
+
+.main-hr {
+  background-color: rgb(130, 191, 224);
+  /* height: 20px; */
+  height: 2px;
+  border: none;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+  color: rgb(125, 217, 120);
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.main-hr {
+  width: 100%;
+}
+
+.main-small-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-small-text-wrapper > div {
+  display: flex;
+  align-items: center;
+  color: white;
+  gap: 10px;
+  font-size: 1.2rem;
+}
+
+.logo-wrapper {
+display: flex;
+flex-direction: column;
+gap: 30px;
+overflow-x: auto;
+}
+
+.logo-wrapper > div{
+  height: 140px;
+  width: 140px;
+  border-radius: 5px;
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.logo-wrapper > div img{
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (min-width: 1200px) {
+  .logo-wrapper {
+    flex-direction: row;
+    }
+}

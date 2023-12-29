@@ -1,0 +1,11 @@
+@font-face {
+  src: url('assets/sofiapro-light.otf');
+  font-family:'sofia';
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'sofia';
+}
