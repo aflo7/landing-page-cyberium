@@ -37,22 +37,20 @@ function App() {
         <div className="main-small-text-wrapper">
           <div>
             <div>💡</div>
-            <div>Fit maps with custom code or enterprise apps</div>
+            <div>Responsive for mobile and desktop devices.</div>
           </div>
 
           <div>
             <div>🔬</div>
             <div>
-              Get Deep Visibility Into Business Details Of Every Function, Gaps
-              & Coverage.
+              Made to show my React, Javascript, HTML, and CSS skills
             </div>
           </div>
 
           <div>
             <div>🚀</div>
             <div>
-              Enhance Management, Operations, Knowledge, Technology With Digital
-              Map
+              Used a deploy.yml file for CI/CD on repo push.
             </div>
           </div>
         </div>
